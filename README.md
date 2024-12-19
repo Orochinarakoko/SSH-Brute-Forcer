@@ -11,3 +11,7 @@ A simple python script that can run a wordlist attack against an ssh server usin
 6) If the thread cannot connect otherwise , then it will sleep for a minute before restarting the attack. This may be due to the server blocking the rapid number of attempt connections coming from the thread / threads
 
 # Troubleshooting
+
+If receiving "FAILED TO CONNECT : THREAD WILL SLEEP FOR 1 MINUTE":
+ 1) If the error is received immediately , then check that you have entered the correct information , and that you are connected to the internet.
+ 2) If the error is received after a period of time , then consider using a lower thread count
