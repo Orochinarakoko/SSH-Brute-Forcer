@@ -15,3 +15,11 @@ A simple python script that can run a wordlist attack against an ssh server usin
 If receiving "FAILED TO CONNECT : THREAD WILL SLEEP FOR 1 MINUTE":
  1) If the error is received immediately , then check that you have entered the correct information , and that you are connected to the internet.
  2) If the error is received after a period of time , then consider using a lower thread count
+
+If the script does not manage to crack the password:
+ 1) Check you are connecting to the right seriver with the right username
+ 2) Try using a larger wordlist ( I would recommend rockyou.txt , located in /usr/share/wordlists on linux)
+ 3) If all else fails , generate a wordlist containing all alphanumeric combinations using crunch
+
+If the script freezes:
+ 1)If this happens after the password is cracked , then it means that you have used too many threads - exit the script using CTRL + Z
