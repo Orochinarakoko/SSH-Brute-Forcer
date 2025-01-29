@@ -22,4 +22,7 @@ If the script does not manage to crack the password:
  3) If all else fails , generate a wordlist containing all alphanumeric combinations using crunch
 
 If the script freezes:
- 1)If this happens after the password is cracked , then it means that you have used too many threads - exit the script using CTRL + Z
+ 1) If this happens after the password is cracked , then it means that you have used too many threads - exit the script using CTRL + Z
+ 2) Check that you have entered the hostname / IP address of the server correctly
+ 3) Check that the server is up using ping
+ 4) Check that your internet connection is working
